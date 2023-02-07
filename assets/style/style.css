@@ -10,7 +10,7 @@
     height: 98vh;
     background-color: black;
     background-size: 45% 100%;
-    z-index: 0;
+    z-index: -1;
   
 }
 .header::before {
@@ -32,11 +32,13 @@
     align-items: center;
     height: 20vh;
    
+   
     
     
 }
 .header__logo{
     margin-left: 250px;
+    z-index: 0;
     
     
 }
@@ -49,6 +51,7 @@
     border: 1px solid blue;
     width: 50vw;
    margin-right: 120px;
+   z-index: 0;
 }
 
 .nav__list{
@@ -63,22 +66,72 @@
     text-decoration: none;
 }
 .header-description{
-    border: 1px solid red;
+ 
     display: flex;
     width: 80vw;
     height: 60vh;
-    margin-left: 365px;
+    margin-left: 350px;
     
-   background-color: black;
-   opacity: 0.9;
-   border-radius: 43px 0px 0px 43px;
+background-color: black;
+opacity: 0.9;
+border-radius: 43px 0px 0px 43px;
     
 }
 .header-img{
+  
+    
     display: flex;
     flex-direction: column;
+    align-items: flex-end;
+    padding: 30px;
+    
 }
+.header-description-title{
+    /* border: 1px solid red; */
+    width: 50%;
+    
+}
+.header-img{
+    width: 40%;
+   
+
+}
+.header-img::after {
+    content: '';
+    position: absolute;
+width: 511px;
+height: 0px;
+left: 795px;
+top: 433px;
+
+border: 1px solid #F5F5F5;
+transform: rotate(90deg);
+
+}
+
+.header-img__wallpaper,
+.header-img__ladder,
+.header-img__table
+{
+    width: 150px;
+    height: 150px;
+}
+.header-img__ladder
+{
+    align-self: flex-start;
+}
+
+
+
+
+
+
+
+
+
+
+
 .main_footer {
-  background-color: #222021;
-  color: #f5f5f5;
+background-color: #222021;
+color: #f5f5f5;
 }
