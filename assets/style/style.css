@@ -77,4 +77,7 @@
 .header-img{
     display: flex;
     flex-direction: column;
+.main_footer {
+  background-color: #222021;
+  color: #f5f5f5;
 }
