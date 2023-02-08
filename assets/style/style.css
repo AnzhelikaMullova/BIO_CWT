@@ -1,0 +1,186 @@
+/*font-family: 'Inter', sans-serif;*/
+
+
+*, *:after, *:before {
+    box-sizing: border-box;
+}
+@font-face{
+    font-family: 'KyivTypeSans';
+    src: url('../fonts/KyivTypeSans-VarGX.ttf')
+}
+.header{
+    background-image: url('../img/piesesofwoodhomepage.png');
+    background-repeat: no-repeat;
+    height: 98vh;
+    background-color: black;
+    background-size: 45% 100%;
+    z-index: -1;
+  
+}
+.header::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(34, 32, 33, 0.49);
+   
+
+
+}
+.header-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 20vh;
+   
+   
+    
+    
+}
+.header__logo{
+    margin-left: 220px;
+    z-index: 0;
+    
+    
+}
+.header-logo__img{
+    width: 197px;
+    height: 89px;
+
+}
+.nav{
+   
+    width: 50vw;
+   margin-right: 220px;
+   z-index: 0;
+}
+
+.nav__list{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding: 5px;
+    
+}
+.nav-list__items a
+{
+ font-family: 'Montserrat', sans-serif;
+
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 24px;
+
+color: #F5F5F5;
+    text-decoration: none;
+}
+.header-description{
+ 
+    display: flex;
+    width: 80vw;
+    height: 60vh;
+    margin-left: 350px;
+    
+background-color: black;
+opacity: 0.9;
+border-radius: 43px 0px 0px 43px;
+    
+}
+.header-description-title__button{
+    width: 225px;
+    height: 58px;
+    margin-left: 50px;
+
+font-family: 'Inter', sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+line-height: 36px;
+
+color: #F5F5F5;
+background: #728BAD;
+border-radius: 42px;
+}
+.header-img{
+  
+    
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 30px;
+    
+}
+.header-description-title{
+    /* border: 1px solid red; */
+    width: 50%;
+    
+}
+.header-description-title__h1 {
+    margin-left: 50px;
+    font-family: 'KyivType Sans';        /*Не подключен шрифт*/
+    font-style: normal;
+    font-weight: 500;
+    font-size: 90px;
+    line-height: 115.4%;
+
+    text-transform: uppercase;
+    
+    color: #F5F5F5;
+
+}
+.header-description-title__p{
+    margin-left: 50px;
+    font-family: 'Inter', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 39px;
+
+color: #FFDBBB;
+}
+.header-img{
+    width: 40%;
+   
+
+}
+.header-img::after {
+    content: '';
+    position: absolute;
+width: 511px;
+height: 0px;
+left: 795px;
+top: 433px;
+
+border: 1px solid #F5F5F5;
+transform: rotate(90deg);
+
+}
+
+.header-img__wallpaper,
+.header-img__ladder,
+.header-img__table
+{
+    width: 150px;
+    height: 150px;
+}
+.header-img__ladder
+{
+    align-self: flex-start;
+}
+
+
+
+
+
+
+
+
+
+
+
+.main_footer {
+background-color: #222021;
+color: #f5f5f5;
+}
