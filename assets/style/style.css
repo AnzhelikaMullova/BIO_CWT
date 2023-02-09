@@ -99,6 +99,7 @@
   /* border: 1px solid red; */
   width: 50%;
 }
+<<<<<<< HEAD
 .header-description-title__h1 {
   margin-left: 50px;
   font-family: KyivTypeSans-Bold; /*Не подключен шрифт*/
@@ -106,6 +107,15 @@
   font-weight: 500;
   font-size: 90px;
   line-height: 115.4%;
+=======
+.header-description-title__h1{
+    margin-left: 50px;
+    font-family: KyivTypeSans-Bold;        /*Не подключен шрифт*/
+    font-style: normal;
+    font-weight: 500;
+    font-size: 90px;
+    line-height: 115.4%;
+>>>>>>> 77c7c368e838e22c9ede60e678cbbd3b5192d93d
 
   text-transform: uppercase;
 
@@ -289,6 +299,7 @@
   color: #f5f5f5;
 }
 
+<<<<<<< HEAD
 .main-woodwork {
   display: flex;
   flex-direction: row;
@@ -356,3 +367,199 @@
   flex-wrap: wrap;
   align-items: center;
 }
+=======
+.section-woodwork{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 500px;
+    background-color: #222021;
+}
+
+.section-woodwork__h1{
+    display: flex;
+    flex-direction: row;
+    width: 750px;
+    height: 250px;
+    font-family: KyivTypeSans-Bold;
+    font-size: 90px;
+    color: #F5F5F5;
+    margin-left: 350px;
+    margin-top: 200px;
+}
+
+.section-images{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 550px;
+    background-color: #222021;
+}
+
+.section-images__oak{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    margin-left: 220px;
+}
+
+.section-images__oak_text{
+    display: flex;
+    font-family: 'Inter', sans-serif;
+    color: #F5F5F5;
+    font-size: 30px;
+    margin-top: 50px;
+    font-weight: bolder;
+    margin-left: 70px;
+  
+}
+.section-images__oak_durability,
+.section-images__oak_beautiful,
+.section-images__oak_water,
+.section-images__oak_expensive,
+.section-images__buk_hard,
+.section-images__buk_durability,
+.section-images__ash_durability,
+.section-images__ash_hard
+{
+    display: flex;
+    flex-direction: row;
+}
+
+.section-images__oak_durability_image,
+.section-images__oak_beautiful_image,
+.section-images__oak_water_image,
+.section-images__buk_durability_image,
+.section-images__ash_hard 
+{
+    margin-top: 20px;
+}
+
+.section-images__oak_beautiful_text{
+    font-family: 'Inter', sans-serif;
+    color: #F5F5F5;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 135px;
+}
+
+.section-images__oak_expensive_image,
+.section-images__buk_hard_image,
+.section-images__ash_durability_image,
+.section-images__ash_hard_image
+{
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+}
+
+.section-images__buk,
+.section-images__ash
+{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    margin-left: 220px;
+}
+
+.section-images__buk_text{
+    display: flex;
+    font-family: 'Inter', sans-serif;
+    color: #F5F5F5;
+    font-size: 30px;
+    margin-top: 50px;
+    font-weight: bolder;
+    margin-left: 70px;
+}
+
+.section-images__buk_durability_text,
+.section-images__buk_hard_text,
+.section-images__ash_durability_text,
+.section-images__oak_expensive_text,
+.section-images__oak_water_text,
+.section-images__ash_hard_text,
+.section-images__oak_durability_text
+{
+    font-family: 'Inter', sans-serif;
+    color: #F5F5F5;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.section-images__ash_text{
+    display: flex;
+    font-family: 'Inter', sans-serif;
+    color: #F5F5F5;
+    font-size: 30px;
+    margin-top: 50px;
+    font-weight: bolder;
+    margin-left: 70px;
+}
+
+.section-ourwork__h1{
+    display: flex;
+    flex-direction: row;
+    width: 750px;
+    height: 250px;
+    font-family: KyivTypeSans-Bold;
+    font-size: 90px;
+    color: #F5F5F5;
+    margin-left: 350px;
+    margin-top: 130px;
+}
+.section-ourwork{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 350px;
+    background-color: #222021;
+}
+.section-ourwork__h1{
+    display: flex;
+    flex-direction: row;
+    width: 750px;
+    height: 200px;
+    font-family: KyivTypeSans-Bold;
+    font-size: 90px;
+    color: #F5F5F5;
+    margin-left: 350px;
+}
+.section-ourwork__image{
+    display: flex;
+    flex-direction: row;
+    background-color: #222021;
+    height: 800px;
+}
+.section-ourwork__image_left{
+    display: flex;
+    align-items: center;
+    margin-left: 60px;
+    margin-right: 20px;
+    width: 200px;
+    justify-content: end;
+}
+.section-ourwork__image_right{
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+    margin-right: 60px;
+}
+.section-ourwork__image_modernkitchen{
+    display: flex;
+    align-items: center;
+}
+.section-ellipses{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    height: 50px;
+    background-color: #222021;
+}
+.section-ellipses__ellipse1{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+>>>>>>> 77c7c368e838e22c9ede60e678cbbd3b5192d93d
