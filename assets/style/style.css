@@ -6,7 +6,7 @@
 }
 @font-face{
     font-family: 'KyivTypeSans';
-    src: url('../fonts/KyivTypeSans-VarGX.ttf')
+    src: url(../fonts/KyivTypeSans-VarGX.ttf)
 }
 .header{
     background-image: url('../img/piesesofwoodhomepage.png');
@@ -169,7 +169,13 @@ transform: rotate(90deg);
 {
     align-self: flex-start;
 }
-
+.header-pages{
+    
+box-shadow: 0px -8px 52px rgba(238, 238, 238, 0.17);
+border-radius: 0px 0px 79px 79px;
+background-color: black;
+opacity: 0.8;
+}
 
 
 
