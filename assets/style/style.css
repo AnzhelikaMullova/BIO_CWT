@@ -1,5 +1,5 @@
 /*font-family: 'Inter', sans-serif;*/
-
+/*Начало CSS Header*/
 
 *, *:after, *:before {
     box-sizing: border-box;
@@ -175,7 +175,9 @@ box-shadow: 0px -8px 52px rgba(238, 238, 238, 0.17);
 border-radius: 0px 0px 79px 79px;
 background-color: black;
 opacity: 0.8;
+padding: 5px;
 }
+/*Конец CSS Header*/
 
 
 
