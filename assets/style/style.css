@@ -99,7 +99,6 @@
   /* border: 1px solid red; */
   width: 50%;
 }
-<<<<<<< HEAD
 .header-description-title__h1 {
   margin-left: 50px;
   font-family: KyivTypeSans-Bold; /*Не подключен шрифт*/
@@ -107,7 +106,6 @@
   font-weight: 500;
   font-size: 90px;
   line-height: 115.4%;
-=======
 .header-description-title__h1{
     margin-left: 50px;
     font-family: KyivTypeSans-Bold;        /*Не подключен шрифт*/
@@ -115,7 +113,6 @@
     font-weight: 500;
     font-size: 90px;
     line-height: 115.4%;
->>>>>>> 77c7c368e838e22c9ede60e678cbbd3b5192d93d
 
   text-transform: uppercase;
 
@@ -366,6 +363,9 @@
   flex-wrap: wrap;
   align-items: center;
 }
+
+
+
 .section-woodwork{
     display: flex;
     flex-direction: row;
