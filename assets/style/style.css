@@ -299,7 +299,6 @@
   color: #f5f5f5;
 }
 
-<<<<<<< HEAD
 .main-woodwork {
   display: flex;
   flex-direction: row;
@@ -367,7 +366,6 @@
   flex-wrap: wrap;
   align-items: center;
 }
-=======
 .section-woodwork{
     display: flex;
     flex-direction: row;
@@ -562,4 +560,3 @@
     margin-left: 20px;
     margin-right: 20px;
 }
->>>>>>> 77c7c368e838e22c9ede60e678cbbd3b5192d93d
