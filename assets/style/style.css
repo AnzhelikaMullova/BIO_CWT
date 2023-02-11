@@ -481,11 +481,29 @@
 
 /*Стили для листа contact*/
 
+.contact_body {
+  background-color: #222021;
+}
+
 .main-contact-page {
   display: flex;
   flex-wrap: wrap;
-  align-items: center;
+  align-items: flex-start;
   justify-content: space-around;
+  color: #f5f5f5;
+  background-color: #222021;
+}
+
+.contact-area-phone-section {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.contact-area-address-section {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
 }
 
 .map-image {
@@ -493,18 +511,8 @@
   height: 428px;
 }
 
-.::before {
-  content: "";
-  position: absolute;
-  top: ;
-  right: ;
-  bottom: ;
-  left: ;
-  background-image: url("/assets/icons/phone.svg");
-  background-repeat: no-repeat;
-}
-
 /*Стили для общего футера*/
+
 .main_footer {
   clear: both;
   background-color: black;
@@ -546,7 +554,7 @@
   padding-bottom: 61px;
 }
 
-. main_footer_mappoint_logo {
+.main_footer_mappoint_logo {
   width: 37.5px;
   height: 50px;
 }
