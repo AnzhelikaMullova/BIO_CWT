@@ -28,20 +28,18 @@
 
 .header-menu {
   display: flex;
+  flex: 0 0 auto;
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
-  height: 20vh;
+
 }
 .header__logo {
   margin-left: 220px;
   margin-top: 50px;
   z-index: 0;
 }
-.header-logo__img {
-  width: 197px;
-  height: 89px;
-}
+
 .nav {
   width: 50vw;
   margin-right: 220px;
@@ -59,7 +57,7 @@
 
   font-style: normal;
   font-weight: 700;
-  font-size: 20px;
+  font-size: 1.5em;
   line-height: 24px;
 
   color: #f5f5f5;
@@ -67,9 +65,9 @@
 }
 .header-description {
   display: flex;
-  flex: 0 0 content;
+  flex: 0 0 auto;
   width: 80vw;
-  height: 60vh;
+
   margin-left: 350px;
   margin-top: 70px;
 
@@ -85,7 +83,7 @@
   font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 700;
-  font-size: 30px;
+  font-size: 1em;
   line-height: 36px;
 
   color: #f5f5f5;
@@ -107,7 +105,7 @@
   font-family: KyivTypeSans-Bold; /*Не подключен шрифт*/
   font-style: normal;
   font-weight: 500;
-  font-size: 90px;
+  font-size: 4em;
   line-height: 115.4%;
 
   text-transform: uppercase;
@@ -119,7 +117,7 @@
   font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 30px;
+  font-size: 2em;
   line-height: 39px;
 
   color: #ffdbbb;
