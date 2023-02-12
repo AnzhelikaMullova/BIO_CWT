@@ -10,25 +10,25 @@
   font-family: KyivTypeSans-Bold;
   src: url(/Project_1/assets/fonts/KyivTypeSans-Bold-.ttf);
 }
+
 .header {
   background-image: url("../img/piesesofwoodhomepage.png");
+ 
   background-repeat: no-repeat;
   height: 98vh;
-  background-color: black;
+
   background-size: 45% 100%;
   z-index: -1;
 }
-.header::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  background: rgba(34, 32, 33, 0.49);
+.body {
+  background-image: url(/assets/icons/HomeBG.svg);
+  background-color: #222021;
+
 }
+
 .header-menu {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
   height: 20vh;
@@ -71,6 +71,7 @@
   width: 80vw;
   height: 60vh;
   margin-left: 350px;
+  margin-top: 70px;
 
   background-color: black;
   opacity: 0.9;
@@ -150,29 +151,20 @@
 .header-pages {
   box-shadow: 0px -8px 52px rgba(238, 238, 238, 0.17);
   border-radius: 0px 0px 79px 79px;
-  background-color: black;
+  background-color: #222021;
   opacity: 0.99;
   padding: 5px;
 }
 /*Конец CSS Header*/
 
-.body {
-  background-color: #222021;
-}
+
 
 /*Стили для страницы прайса начало*/
-.body-price {
-  background-color: black;
-}
 
-.body-price::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  background: rgba(34, 32, 33, 0.49);
+.body-price {
+  background-color: #222021;
+background-image: url('/assets/icons/HomeBG.svg');
+
 }
 
 .price {
@@ -289,16 +281,14 @@
 }
 /*Стили для страницы прайса конец*/
 
-.main_footer {
-  background-color: #222021;
-  color: #f5f5f5;
-}
+
 
 .section-woodwork {
+
   display: flex;
   flex-direction: row;
   width: 100%;
-  background-color: #222021;
+  
 }
 
 .section-woodwork__h2 {
@@ -316,7 +306,7 @@
   flex-direction: row;
   width: 100%;
   height: 300%;
-  background-color: #222021;
+ 
 }
 
 .section-images__oak_text {
@@ -421,7 +411,7 @@
   flex-direction: row;
   width: 100%;
   height: 350%;
-  background-color: #222021;
+
 }
 .section-ourwork__h1 {
   display: flex;
@@ -432,12 +422,12 @@
   font-size: 90px;
   color: #f5f5f5;
   margin-left: 350px;
-  background-color: #222021;
+
 }
 .section-ourwork__image {
   display: flex;
   flex-direction: row;
-  background-color: #222021;
+=
   height: 800px;
   justify-content: center;
 }
@@ -465,7 +455,7 @@
   justify-content: center;
   width: 100%;
   height: 50px;
-  background-color: #222021;
+
 }
 .section-ellipses__ellipse1 {
   margin-left: 20px;
@@ -478,10 +468,12 @@ ul {
 /*Стили для листа contact*/
 
 .contact_body {
-  background-color: #222021;
+ 
   height: 100%;
   display: flex;
   flex-direction: column;
+  background-color: #222021;
+  background-image: url('/assets/icons/HomeBG.svg');
 }
 
 .contact-title {
@@ -500,7 +492,7 @@ ul {
   align-items: flex-start;
   justify-content: space-around;
   color: #f5f5f5;
-  background-color: #222021;
+
   flex: 1 1 auto;
 }
 
@@ -527,10 +519,15 @@ ul {
 /*Стили для общего футера*/
 
 .main_footer {
+
   clear: both;
   background-color: black;
   opacity: 0.9;
   color: #f5f5f5;
+padding: 10px;
+opacity: 0.7;
+box-shadow: 0px -6px 52px rgba(245, 245, 245, 0.17);
+
 }
 .contact_area {
   display: flex;
@@ -587,6 +584,7 @@ ul {
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
+  padding: 5px;
 }
 
 .question-aria-left-part {
