@@ -67,7 +67,7 @@
 }
 .header-description {
   display: flex;
-  flex-direction: 0 0 content;
+  flex: 0 0 content;
   width: 80vw;
   height: 60vh;
   margin-left: 350px;
