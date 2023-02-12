@@ -17,8 +17,8 @@
   background-repeat: no-repeat;
   height: 98vh;
 
-  background-size: 45% 100%;
-  z-index: -1;
+
+
 }
 .body {
   background-image: url(/assets/icons/HomeBG.svg);
@@ -37,13 +37,13 @@
 .header__logo {
   margin-left: 220px;
   margin-top: 50px;
-  z-index: 0;
+
 }
 
 .nav {
   width: 50vw;
   margin-right: 220px;
-  z-index: 0;
+
 }
 
 .nav__list {
@@ -105,7 +105,7 @@
   font-family: KyivTypeSans-Bold; /*Не подключен шрифт*/
   font-style: normal;
   font-weight: 500;
-  font-size: 4em;
+  font-size: 5em;
   line-height: 115.4%;
 
   text-transform: uppercase;
