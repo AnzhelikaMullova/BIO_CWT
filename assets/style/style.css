@@ -125,17 +125,22 @@
 .header-img {
   width: 40%;
 }
-.header-img::after {
+.header-description-title{
+  position: relative;
+}
+.header-description-title::before{
   content: "";
   position: absolute;
   width: 511px;
   height: 0px;
-  left: 795px;
-  top: 505px;
+  left: 420px;
+  top: 260px;
 
   border: 1px solid #f5f5f5;
   transform: rotate(90deg);
+  
 }
+
 
 .header-img__wallpaper,
 .header-img__ladder,
