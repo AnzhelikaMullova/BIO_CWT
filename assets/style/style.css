@@ -8,7 +8,7 @@
 }
 @font-face {
   font-family: KyivTypeSans-Bold;
-  src: url(/Project_1/assets/fonts/KyivTypeSans-Bold-.ttf);
+  src: url(../fonts/KyivTypeSans-Bold-.ttf);
 }
 
 .header {
@@ -381,91 +381,20 @@ background-image: url('/assets/icons/HomeBG.svg');
 }
 /*Стили для страницы прайса конец*/
 
-
-
-.section-woodwork {
-
+.woodwork__list{
   display: flex;
   flex-direction: row;
   width: 100%;
-  
+  justify-content: space-around;
 }
-
-.section-woodwork__h2 {
-  width: 750px;
-  height: 350px;
-  font-family: KyivTypeSans-Bold;
-  font-size: 90px;
-  color: #f5f5f5;
-  margin-left: 350px;
-  margin-top: 200px;
-}
-
-.section-images {
-  display: flex;
-  flex-direction: row;
-  width: 100%;
-  height: 300%;
- 
-}
-
-.section-images__oak_text {
-  font-family: "Inter", sans-serif;
-  color: #f5f5f5;
-  font-size: 30px;
-  margin-top: 50px;
-  font-weight: bolder;
-  margin-left: 70px;
-}
-.section-images__oak_durability,
-.section-images__oak_beautiful,
-.section-images__oak_water,
-.section-images__oak_expensive,
-.section-images__buk_hard,
-.section-images__buk_durability,
-.section-images__ash_durability,
-.section-images__ash_hard {
-  display: flex;
-  flex-direction: row;
-}
-
-.section-images__oak_durability_image,
-.section-images__oak_beautiful_image,
-.section-images__oak_water_image,
-.section-images__buk_durability_image,
-.section-images__ash_hard {
-  margin-top: 20px;
-}
-
-.section-images__oak_beautiful_text {
-  font-family: "Inter", sans-serif;
-  color: #f5f5f5;
-  font-size: 30px;
-  margin-top: 20px;
-  margin-left: 20px;
-  width: 135px;
-}
-
-.section-images__oak_expensive_image,
-.section-images__buk_hard_image,
-.section-images__ash_durability_image,
-.section-images__ash_hard_image {
-  display: flex;
-  margin-top: 20px;
-  align-items: center;
-}
-
-.section-images__buk,
-.section-images__ash,
-.section-images__oak {
+.woodwork-item{
   display: flex;
   flex-direction: column;
-  width: 30%;
-  height: 120%;
-  margin-left: 50px;
+  width: 80%;
+  margin-left: 25%;
+  margin-right: 25%;
 }
-
-.section-images__buk_text {
+.woodwork-item__title{
   font-family: "Inter", sans-serif;
   color: #f5f5f5;
   font-size: 30px;
@@ -473,97 +402,49 @@ background-image: url('/assets/icons/HomeBG.svg');
   font-weight: bolder;
   margin-left: 70px;
 }
-
-.section-images__buk_durability_text,
-.section-images__buk_hard_text,
-.section-images__ash_durability_text,
-.section-images__oak_expensive_text,
-.section-images__oak_water_text,
-.section-images__ash_hard_text,
-.section-images__oak_durability_text {
+.woodwork-item__item{
   font-family: "Inter", sans-serif;
   color: #f5f5f5;
   font-size: 30px;
   margin-top: 20px;
-  margin-left: 20px;
+  width: 260px;
 }
-
-.section-images__ash_text {
-  font-family: "Inter", sans-serif;
-  color: #f5f5f5;
-  font-size: 30px;
+.woodwork-item__image{
+  margin-left: 250px;
   margin-top: 50px;
-  font-weight: bolder;
-  margin-left: 70px;
+  width: 50px;
 }
 
-.section-ourwork__h1 {
+.woodwork__title,
+.ourwork__title{
   width: 750px;
-  height: 250px;
+  height: 150px;
   font-family: KyivTypeSans-Bold;
   font-size: 90px;
   color: #f5f5f5;
   margin-left: 350px;
-  margin-top: 130px;
-}
-.section-ourwork {
-  display: flex;
-  flex-direction: row;
-  width: 100%;
-  height: 350%;
-
-}
-.section-ourwork__h1 {
-  display: flex;
-  flex-direction: row;
-  width: 750px;
-  height: 200px;
-  font-family: KyivTypeSans-Bold;
-  font-size: 90px;
-  color: #f5f5f5;
-  margin-left: 350px;
-
-}
-.section-ourwork__image {
-  display: flex;
-  flex-direction: row;
-=
-  height: 800px;
-  justify-content: center;
-}
-.section-ourwork__image_left {
-  display: flex;
-  align-items: center;
-  margin-left: 60px;
-  margin-right: 20px;
-  width: 200px;
-  justify-content: end;
-}
-.section-ourwork__image_right {
-  display: flex;
-  align-items: center;
-  margin-left: 20px;
-  margin-right: 60px;
-}
-.section-ourwork__image_modernkitchen {
-  display: flex;
-  align-items: center;
-}
-
-.section-ellipses {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  width: 100%;
-  height: 50px;
-
-}
-.section-ellipses__ellipse1 {
-  margin-left: 20px;
-  margin-right: 20px;
+  margin-top: 100px;
 }
 ul {
   list-style-type: none;
+}
+.ourwork__list{
+  display: flex;
+  align-items: center;
+}
+.ourwork-item__image{
+  margin-left: 25px;
+  margin-right: 25px;
+}
+.ourwork__ellipses{
+  display: flex;
+  width: 100%;
+  height: 50px;
+  justify-content:center;
+  align-items: end;
+}
+.ourwork-item__ellipse{
+  width: 10px;
 }
 
 /*Стили для листа contact*/
