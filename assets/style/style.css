@@ -13,9 +13,9 @@
 
 .header {
   background-image: url("../img/piesesofwoodhomepage.png");
- background-size: 40% 100%;
+  background-size: auto 100%;
   background-repeat: no-repeat;
-  height: 98vh;
+  
 
 
 
@@ -149,7 +149,8 @@
   height: 150px;
 }
 .header-img__ladder {
-  align-self: flex-start;
+  /* align-self: flex-start; */
+  margin-right: 160px;
 }
 .header-pages {
   box-shadow: 0px -8px 52px rgba(238, 238, 238, 0.17);
