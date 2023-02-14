@@ -431,6 +431,7 @@ ul {
 }
 .ourwork__list{
   display: flex;
+  justify-content: center;
   align-items: center;
 }
 .ourwork-item__image{
