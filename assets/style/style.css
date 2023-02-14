@@ -534,6 +534,7 @@ box-shadow: 0px -6px 52px rgba(245, 245, 245, 0.17);
 
 .phone_number_link {
   margin-left: 18.75px;
+  font-family: "Inter", sans-serif;
 }
 
 .main_footer_mappoint_logo {
@@ -542,11 +543,14 @@ box-shadow: 0px -6px 52px rgba(245, 245, 245, 0.17);
 
 .address {
   margin-left: 12px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
 }
 
 .privacy-policy-title {
   margin-left: 220px;
   margin-bottom: 20px;
+  font-family: "Inter", sans-serif;
 }
 
 .main_footer_mappoint_logo {
@@ -641,8 +645,7 @@ padding-bottom: 100px;
 }
 
 .section-advantagesworkingwithus__h3{
-  
-font-family: "KyivTypeSans-Bold";
+font-family: KyivTypeSans-Bold;
 font-style: normal;
 margin-left: 400px;
 margin-right: 162px;
@@ -685,7 +688,8 @@ color: #F5F5F5;
 margin-left: 500px;
 margin-top: 100px;
 border: #728BAD;
-
+font-size: 30px;
+font-weight: bold;
 background: #728BAD;
 border-radius: 42px;
 
@@ -696,11 +700,10 @@ border-radius: 42px;
 
 }
 .section-aboutus__h4{
-  font-family: 'KyivType Sans';
+  font-family: KyivTypeSans-Bold;
   font-style: normal;
   margin-left: 400px;
   margin-right: 162px;
- 
   text-transform: uppercase;
   font-weight: 500;
   font-size: 60px;
