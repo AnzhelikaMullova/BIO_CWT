@@ -507,12 +507,14 @@ ul {
     .ourwork-item__image-leftright{
       width: 20px;
       height: auto;
-      margin-left: 10px;
-      margin-right: 10px;
+      margin-left: 5px;/*изменила отступы*/
+      margin-right: 5px;
     }
     .ourwork-item__image{
       margin-left: 5px;
       margin-right: 5px;
+      width: 320px; /*поменяла размер картинки*/
+      height: auto;
     }
     .ourwork-item__ellipse{
       width: 20px;
