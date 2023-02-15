@@ -468,7 +468,9 @@ ul {
   align-items: center;
 }
 .ourwork__container{
+  display: flex;
   max-width: 100%;
+  align-items: center;
 }
 .ourwork-item__image{
   width: 100%;
@@ -477,8 +479,8 @@ ul {
   margin-right: 25px;
 }
 .ourwork-item__image-leftright{
-  width: 100%;
-  height: auto;
+  width: 40px;
+  height: 40px;
   margin-left: 25px;
   margin-right: 25px;
 }
@@ -490,7 +492,8 @@ ul {
   align-items: end;
 }
 .ourwork-item__ellipse{
-  width: 10px;
+  width: 20px;
+  margin-left: 10px;
 }
 @media (max-width: 768px) {
     .ourwork__container {
@@ -503,6 +506,7 @@ ul {
     }
     .ourwork-item__image-leftright{
       width: 20px;
+      height: 20px;
     }
     .ourwork-item__image{
       margin-left: 5px;
