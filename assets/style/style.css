@@ -499,14 +499,16 @@ ul {
     .ourwork__container {
       display: flex;
       flex-direction: row;
-      max-width: 70%;
+      max-width: 66%;
       height: auto;
       align-items: center;
       justify-content: center; 
     }
     .ourwork-item__image-leftright{
       width: 20px;
-      height: 20px;
+      height: auto;
+      margin-left: 10px;
+      margin-right: 10px;
     }
     .ourwork-item__image{
       margin-left: 5px;
