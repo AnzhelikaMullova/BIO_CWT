@@ -1,4 +1,4 @@
-/*font-family: 'Inter', sans-serif;*/
+
 /*Начало CSS Header*/
 
 *,
@@ -466,8 +466,18 @@ ul {
   justify-content: center;
   align-items: center;
 }
+.ourwork__container{
+  max-width: 100%;
+}
 .ourwork-item__image{
-  display: flex;
+  width: 100%;
+  height: auto;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+.ourwork-item__image-leftright{
+  width: 100%;
+  height: auto;
   margin-left: 25px;
   margin-right: 25px;
 }
@@ -481,21 +491,25 @@ ul {
 .ourwork-item__ellipse{
   width: 10px;
 }
-
-@media screen and (max-width: 768px) {
-    .ourwork__list {
-      max-width: 768px;
+@media (max-width: 768px) {
+    .ourwork__container {
+      display: flex;
+      flex-direction: row;
+      max-width: 70%;
+      height: auto;
+      align-items: center;
+      justify-content: center; 
     }
-    .ourwork-item__image {
-      margin: 0;
-      max-width: 100%;
+    .ourwork-item__image-leftright{
+      width: 20px;
     }
-    .ourwork__ellipses {
-      height: 40px;
+    .ourwork-item__image{
+      margin-left: 5px;
+      margin-right: 5px;
     }
-    .ourwork-item__ellipse {
-      width: 5px;
-      margin: 0 5px;
+    .ourwork-item__ellipse{
+      width: 20px;
+      margin-left: 10px;
     }
   }
 
