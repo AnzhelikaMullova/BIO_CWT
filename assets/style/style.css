@@ -415,7 +415,6 @@ background-image: url('/assets/icons/HomeBG.svg');
   margin-top: 50px;
   width: 50px;
 }
-
 .woodwork__title,
 .ourwork__title{
   width: 750px;
@@ -429,12 +428,46 @@ background-image: url('/assets/icons/HomeBG.svg');
 ul {
   list-style-type: none;
 }
+@media screen and (max-width: 768px) {
+  .woodwork__list {
+    flex-direction: column;
+    align-items: center;
+    }
+    .woodwork-item {
+      width: 100%;
+      margin-left: 0;
+      margin-right: 0;
+      justify-content: start;
+    }
+    .woodwork-item__title {
+      font-size: 20px;
+      margin-top: 30px;
+      margin-left: 0;
+      text-align: center;
+    }
+    .woodwork-item__item {
+      font-size: 20px;
+      margin-top: 10px;
+    }
+    .woodwork-item__image {
+      margin-left: 0;
+      margin-top: 30px;
+    }
+    .woodwork__title, .ourwork__title {
+      width: 100%;
+      height: 80px;
+      font-size: 40px;
+      margin-left: 30px;
+      margin-top: 40px;
+    }
+  }
 .ourwork__list{
   display: flex;
   justify-content: center;
   align-items: center;
 }
 .ourwork-item__image{
+  display: flex;
   margin-left: 25px;
   margin-right: 25px;
 }
@@ -448,6 +481,23 @@ ul {
 .ourwork-item__ellipse{
   width: 10px;
 }
+
+@media screen and (max-width: 768px) {
+    .ourwork__list {
+      max-width: 768px;
+    }
+    .ourwork-item__image {
+      margin: 0;
+      max-width: 100%;
+    }
+    .ourwork__ellipses {
+      height: 40px;
+    }
+    .ourwork-item__ellipse {
+      width: 5px;
+      margin: 0 5px;
+    }
+  }
 
 /*Стили для листа contact*/
 
