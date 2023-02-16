@@ -255,6 +255,77 @@ display: none;
 
 }
 @media screen and (min-width: 768px) and (max-width: 1023px) {
+
+.header {
+border: 1px solid red;
+margin: 0 auto;
+background-size: cover;
+  
+  }
+  .header-menu{  
+    flex: 0 0 auto;
+    justify-content: space-around;
+  
+  }
+  .header__logo {
+    margin-right: 35px;
+  
+    
+    }
+    .nav {
+
+      flex: 0 0 content;
+       }
+  
+  
+    .header-description {
+      flex-direction: column;
+      margin-left: auto;
+     
+    
+    }
+    .header-description-title__h1 {
+      margin-left: 50px;
+      font-weight: 300;
+      font-size: 5em;
+      line-height: 100%;
+    }
+    .header-description-title__p {
+      font-weight: 200;
+      font-size: 2em;
+      line-height: 35px;
+      width: 400px;
+    }
+    .header-description-title__button {
+      width: 150px;
+      height: 40px;
+      font-size: 1em;
+      line-height: 10px;
+      margin-bottom: 15px;
+    
+    }
+    .header-description-title::before{
+    display: none;
+      
+    }
+    .header-img__wallpaper,
+    .header-img__ladder,
+    .header-img__table {
+      width: 150px;
+      height: 150px;
+    }
+    .header-img {
+      align-items: flex-start;
+    }
+    .header-img__ladder{
+      margin-left: 350px;
+    }
+    .header-img__wallpaper,
+    .header-img__table
+    {
+      margin-left: 100px;
+    }
+
   
 }
 
@@ -306,6 +377,8 @@ background-image: url('/assets/icons/HomeBG.svg');
 
   margin: 0 auto;
 }
+
+
 
 .table__1 {
   width: 100%;
@@ -381,6 +454,64 @@ background-image: url('/assets/icons/HomeBG.svg');
   z-index: 0;
 }
 /*Стили для страницы прайса конец*/
+@media screen and (max-width: 767px)
+{
+  .header-pages {
+
+    padding: 10px;
+    ;
+  }
+.header-logo__img{
+  margin-bottom: 30px;
+}
+  .menu-burger__header {
+    position: relative; 
+    width: 40px; 
+    display: block;
+    margin-top: 10px;
+}
+.menu-burger__header span, .menu-burger__header:after, .menu-burger__header:before{
+  height: 3px;
+  width: 100%;
+  position: absolute;
+  background: #f4f9fa;
+
+}
+.menu-burger__header span{
+  top: 20px;
+  width: 25px;
+  left: 15px;
+}
+.menu-burger__header:after, .menu-burger__header:before{
+  content: '';
+}
+.menu-burger__header:after{
+  bottom: 5px;
+  width: 20px;
+}
+.menu-burger__header:before{
+  top: 5px;
+}
+  
+  
+  .price::after {
+display: none;
+  }
+  
+  .price::before {
+   display: none;
+  }
+
+  .table-price {
+    display: flex;
+    flex-direction: column;
+ 
+    margin: 0 auto;
+
+ 
+  }
+
+}
 
 .woodwork__list{
   display: flex;
@@ -448,6 +579,9 @@ ul {
 .ourwork-item__ellipse{
   width: 10px;
 }
+
+
+
 
 /*Стили для листа contact*/
 
