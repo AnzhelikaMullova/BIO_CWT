@@ -559,7 +559,42 @@ display: none;
 ul {
   list-style-type: none;
 }
-@media screen and (max-width: 768px) {
+
+@media screen and (max-width: 767px){
+  .woodwork__list {
+    flex-direction: column;
+    align-items: center;
+    }
+    .woodwork-item {
+      width: 100%;
+      margin-left: 0;
+      margin-right: 0;
+      justify-content: start;
+    }
+    .woodwork-item__title {
+      font-size: 20px;
+      margin-top: 30px;
+      margin-left: 0;
+      text-align: center;
+    }
+    .woodwork-item__item {
+      font-size: 20px;
+      margin-top: 10px;
+    }
+    .woodwork-item__image {
+      margin-left: 0;
+      margin-top: 30px;
+    }
+    .woodwork__title, .ourwork__title {
+      width: 100%;
+      height: 80px;
+      font-size: 40px;
+      margin-left: 0;
+      margin-top: 40px;
+      text-align: center;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
   .woodwork__list {
     flex-direction: column;
     align-items: center;
@@ -626,7 +661,33 @@ ul {
   width: 20px;
   margin-left: 10px;
 }
-@media (max-width: 768px) {
+@media screen and (max-width: 767px){
+  .ourwork__container {
+    display: flex;
+    flex-direction: row;
+    max-width: 66%;
+    height: auto;
+    align-items: center;
+    justify-content: center; 
+  }
+  .ourwork-item__image-leftright{
+    width: 20px;
+    height: auto;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  .ourwork-item__image{
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 80%; 
+    height: auto;
+  }
+  .ourwork-item__ellipse{
+    width: 20px;
+    margin-left: 10px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
     .ourwork__container {
       display: flex;
       flex-direction: row;
@@ -638,13 +699,13 @@ ul {
     .ourwork-item__image-leftright{
       width: 20px;
       height: auto;
-      margin-left: 5px;/*изменила отступы*/
+      margin-left: 5px;
       margin-right: 5px;
     }
     .ourwork-item__image{
       margin-left: 5px;
       margin-right: 5px;
-      width: 320px; /*поменяла размер картинки*/
+      width: 80%; 
       height: auto;
     }
     .ourwork-item__ellipse{
@@ -652,8 +713,6 @@ ul {
       margin-left: 10px;
     }
   }
-
-
 
 
 /*Стили для листа contact*/
