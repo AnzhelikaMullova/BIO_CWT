@@ -206,6 +206,7 @@
 margin-left: 3px;
 
 }
+
 .nav {
  display: none;
 
@@ -272,10 +273,20 @@ background-size: cover;
   
     
     }
+    a {
+      
+      margin: 0 10px;
+     }
+     .nav-list__items a {
+ 
+      font-weight: 700;
+      font-size: 1.2em;
+    }
     .nav {
 
       flex: 0 0 content;
-       }
+     
+    }
   
   
     .header-description {
@@ -442,7 +453,6 @@ background-image: url('/assets/icons/HomeBG.svg');
 .price__h1 {
   margin-left: 90px;
   font-family: KyivTypeSans-Bold;
-  /* Шрифт не подключен */
   font-style: normal;
   font-weight: 400;
   font-size: 70px;
@@ -492,8 +502,7 @@ background-image: url('/assets/icons/HomeBG.svg');
 .menu-burger__header:before{
   top: 5px;
 }
-  
-  
+   
   .price::after {
 display: none;
   }
@@ -501,18 +510,71 @@ display: none;
   .price::before {
    display: none;
   }
+  .price__h1 {
+   margin-left: 10px;
+    font-size: 3em;
+  }
 
   .table-price {
     display: flex;
     flex-direction: column;
- 
-    margin: 0 auto;
+flex: 0 1 auto;
 
- 
+  }
+  .table__1,
+  .table__2,
+  .table__3,
+  .table__4 
+   
+{
+    font-weight: 300;
+    font-size: 25px;
+    line-height: 100.9%;
+    border-radius: 15px;
+    margin-left: -50px;
+  
   }
 
-}
 
+}
+@media screen and (min-width: 768px) and (max-width: 1023px)
+{
+  .header-logo__img{
+    margin-bottom: 30px;
+  }
+  .price::after {
+    display: none;
+      }
+      
+      .price::before {
+       display: none;
+      }
+      .price__h1 {
+       margin-left: 10px;
+        font-size: 3em;
+      }
+    
+      .table-price {
+        display: flex;
+        flex-direction: column;
+        flex: 0 1 auto;
+    
+      }
+      .table__1,
+      .table__2,
+      .table__3,
+      .table__4 
+       
+    {
+        font-weight: 300;
+        font-size: 35px;
+        line-height: 100.9%;
+        border-radius: 15px;
+        margin-left: 20px;
+      
+      }
+
+}
 .woodwork__list{
   display: flex;
   flex-direction: row;
