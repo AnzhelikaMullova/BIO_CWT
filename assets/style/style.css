@@ -337,7 +337,7 @@ background-size: cover;
       margin-left: 100px;
     }
 
-  
+}
 
 
 
@@ -469,7 +469,7 @@ background-image: url('/assets/icons/HomeBG.svg');
   .header-pages {
 
     padding: 10px;
-    ;
+
   }
 .header-logo__img{
   margin-bottom: 30px;
@@ -574,7 +574,7 @@ flex: 0 1 auto;
       
       }
     }
-}
+
 .woodwork__list{
   display: flex;
   flex-direction: row;
