@@ -1086,4 +1086,73 @@ margin-top: -130px;
 margin-bottom: 10px;
 }
 
+@media screen and (max-width: 767px){
+  .section-advantagesworkingwithus_div{
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 60px;
+    margin-right: 60px;
 
+  }
+  .section-advantagesworkingwithus-img{
+   max-width: 80%;
+  }
+  .section-advantagesworkingwithus_text{
+    font-size: 20px;
+    font-weight: 300;
+   }
+   .section-advantagesworkingwithus__h3{
+    margin-left: 50px;
+    margin-right: 100px;
+    font-weight: 200;
+    font-size: 20px;
+   }
+   .section-advantagesworkingwithus_button{
+   
+
+    font-size: 10px;
+    margin-left: 50px;
+    margin-top: 50px;
+   }
+   .section-aboutus__h4{
+    margin-left: 20px;
+    margin-right: 50px;
+    font-weight: 100;
+    font-size: 40px;
+
+   }
+   .section-aboutus_div{
+    flex-direction: column;
+    margin-left: auto;
+   }
+
+   .section-aboutus-images{
+    align-items:flex-start;
+  margin-top: 150px;}
+    
+  .section-aboutus-images2{
+    margin-right: 25px;
+    margin-top: -40px;
+    width: 200px;
+  }
+  .section-aboutus-images1{
+    margin-bottom: -25px;
+    width: 150px;
+    margin-left: 100px;
+  }
+  .section-aboutus_text{
+  
+  font-weight: 200;
+  font-size: 15px;
+  margin-left: 10px;
+  }
+  .section-aboutus-backround{
+    margin-right: 50px;
+    margin-bottom: 10px;
+    border-radius: 0px 42px 42px 0px;
+  }
+.section-aboutus-images3 {
+  margin-left: 100px;
+  width: 150px;
+}
+}
