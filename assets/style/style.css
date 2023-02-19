@@ -1129,30 +1129,34 @@ ul {
     
   }
   .section-aboutus_div {
-    flex-direction: column;
-    margin-left: auto;
+    display: flex;
+    margin-left: 40px;
+    margin-right: 40px;
   }
 
   .section-aboutus-images {
-    align-items: flex-start;
-    margin-top: 150px;
+    align-items: flex-end;
+   display: flex;
+   flex-direction: column;
   }
 
   .section-aboutus-images2 {
     margin-right: 25px;
-    margin-left: 150px;
+    margin-left: 200px;
     margin-top: -40px;
-    width: 300px;
+    width: 200px;
   }
   .section-aboutus-images1 {
     margin-bottom: -25px;
-    width: 200px;
-    margin-left: 300px;
+    margin-top: -70px;
+    width: 150px;
+   
   }
   .section-aboutus_text {
     font-weight: 200;
-    font-size: 28px;
-    margin-left: 100px;
+    font-size: 20px;
+    margin-right: -150px;
+    
   }
   .section-aboutus-backround {
     margin-right: 50px;
@@ -1160,7 +1164,8 @@ ul {
     border-radius: 0px 42px 42px 0px;
   }
   .section-aboutus-images3 {
-    margin-left: 300px;
-    width: 200px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    width: 150px;
   }
 }
