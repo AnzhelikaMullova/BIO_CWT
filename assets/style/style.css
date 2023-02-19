@@ -602,6 +602,7 @@ box-shadow: 0px -6px 52px rgba(245, 245, 245, 0.17);
   font-weight: 500;
   font-size: 30px;
   color: #d9d9d9;
+  opacity: 0,5;
 }
 
 .question-text {
