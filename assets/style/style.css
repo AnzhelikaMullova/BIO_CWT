@@ -970,13 +970,13 @@ ul {
   padding-bottom: 100px;
 }
 .section-aboutus__h2 {
-  font-family: KyivTypeSans-Bold;
+  font-family: KyivType Sans;
   font-style: normal;
-  margin-left: 400px;
+  margin-left: 200px;
   margin-right: 162px;
   text-transform: uppercase;
   font-weight: 500;
-  font-size: 60px;
+  font-size: 90px;
   line-height: 132.9%;
   color: #f5f5f5;
 }
